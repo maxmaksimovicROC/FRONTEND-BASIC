@@ -57,6 +57,14 @@ p {
 h1{
   color:steelblue
 }
+.geel{
+  color:tomato
+}
+
+
+
+
+
       </style>
   </head>
 <body>
@@ -67,7 +75,7 @@ h1{
     </div>
     '*='
     <div class="sidenav">
-      <a href="pagina2.html">max over 5 jaar</a>
+      <a href="over5jaar.html">max over 5 jaar</a>
     </div>
 
     <div class="content">
@@ -78,33 +86,33 @@ h1{
     <h1>Woonplaats</h1>
     <p>Asterdam-Oost</p>
     <h1>wie is max</h1>
-    <p>Er is weinig over mezelf te vertellen, ik zit op school in amstelveen bij Roc amstelland en ik vind het een leuke opleiding.</p>
+    <p class="geel">Er is weinig over mezelf te vertellen, ik zit op school in amstelveen bij Roc amstelland en ik vind het een leuke opleiding.</p>
     <p>In mijn vrijetijd probeer ik mezelf te ontwikkelen met leerzamen dingen of ik speel een game om wat te relexen.</p>
     
     
     <img src="foto.jpg" alt="max" style="width:128px;height:200px;">
     <br>
     
-    <button onclick="myFunction()">Prompt</button>
+    <button onclick="promptF()">Prompt</button>
 
     <script>
-    function myFunction() {
+    function promptF() {
     prompt("dit is een promptbox");
     }
     </script>
 
-<button onclick="myFunction()">confirm</button>
+<button onclick="confirmF()">confirm</button>
 
 <script>
-function myFunction() {
+function confirmF() {
 confirm("dit is een confirm box");
 }
 </script> 
 
-<button onclick="myFunction()">alertbox</button>
+<button onclick="alertFunction()">alertbox</button>
 
 <script>
-function myFunction() {
+function alertFunction() {
 alert("dit is een alertbox");
 }
 </script>
